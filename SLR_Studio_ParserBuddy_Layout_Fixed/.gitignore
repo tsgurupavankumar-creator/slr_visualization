@@ -1,0 +1,10 @@
+node_modules/
+test-results/
+playwright-report/
+*.tsbuildinfo
+
+# Secrets: real keys live only in these files, which must never be committed.
+.env
+.env.*
+!.env.example
+*.local
